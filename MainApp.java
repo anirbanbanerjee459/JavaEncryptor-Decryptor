@@ -12,6 +12,7 @@ class MainApp
         System.out.println("Enter 2 to decrypt a message");
         System.out.println("Enter your choice: ");
         int choice = sc.nextInt();
+        sc.nextLine();//eats up the excess newline character
         String msg, fmsg;
         int key;
         switch (choice) 
